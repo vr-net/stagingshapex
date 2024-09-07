@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  nextapp:
+    container_name: shapex
+    image: postex/shapex
+    build: .
+    ports:
+      - "5000:5000"
